@@ -1,5 +1,8 @@
 package com.gestion.micromarket.repository;
 
-public class CategoriesRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.gestion.micromarket.entity.Categories;
+
+public interface CategoriesRepository extends JpaRepository<Categories, Long> {
     
 }
